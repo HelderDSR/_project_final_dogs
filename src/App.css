@@ -3,6 +3,7 @@
 }
 
 body {
+  padding-top: 4rem;
   margin: 0px;
   color: #333;
   --type-first: Helvetica, Arial, sans-serif;
@@ -18,7 +19,8 @@ p {
   margin: 0px;
 }
 
-ul,li {
+ul,
+li {
   list-style: none;
   padding: 0px;
   margin: 0px;
@@ -29,15 +31,20 @@ img {
   min-width: 100%;
 }
 
-button, input {
+button,
+input {
   display: block;
   font-size: 1rem;
   font-family: var(--type-first);
   color: #333;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
-  min-width: 50rem;
+  max-width: 50rem;
   padding: 0 1rem;
   margin: 0 auto;
 }
